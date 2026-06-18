@@ -15,7 +15,7 @@ FROM library_locations
 ORDER BY quadrant, name;
 
 
--- 2. Count how many branches exist per quadrant
+-- 2. Count how many library branches exist per quadrant
 SELECT 
     quadrant,
     COUNT(*) AS branch_count
