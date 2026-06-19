@@ -1,7 +1,7 @@
 # Calgary Public Library — Branch Analysis
 
 **Tools used:** Power BI · DAX · SQL  
-**Dataset:** [Calgary Public Library Locations and Hours](https://data.calgary.ca/Recreation-and-Culture/Calgary-Public-Library-Locations-and-Hours/m9y7-ui7j/data_preview)  
+**Dataset:** [Calgary Public Library Locations and Hours](https://data.calgary.ca/Recreation-and-Culture/Calgary-Public-Library-Locations-and-Hours/m9y7-ui7j/)  
 **Status:** Complete
 
 ---
@@ -27,6 +27,25 @@ additional insights not present in the raw dataset.
 - The NW quadrant has the highest concentration of branches (7), followed by SE (6), SW (5), and NE (4)
 - Central Library is by far the largest branch by square footage, followed by Fish Creek Library and Crowfoot Library; the remaining branches are comparatively small and similar in size
 - Calgary Public Library operates 22 total branches citywide
+---
+## DAX Formulas Used
+
+**Quadrant extraction** — derived from the address field since no quadrant column existed in the raw dataset:
+
+```dax
+Quadrant = 
+IF(RIGHT(library_locations[address], 2) = "NW", "NW",
+IF(RIGHT(library_locations[address], 2) = "NE", "NE",
+IF(RIGHT(library_locations[address], 2) = "SW", "SW",
+IF(RIGHT(library_locations[address], 2) = "SE", "SE", "Unknown"))))
+```
+
+**Total branch count** — used for the KPI card:
+
+```dax
+Total Branches = COUNT(library_locations[name])
+`
+
 ---
 
 ## Dashboard Preview
