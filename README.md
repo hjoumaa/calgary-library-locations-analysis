@@ -44,7 +44,7 @@ IF(RIGHT(library_locations[address], 2) = "SE", "SE", "Unknown"))))
 
 ```dax
 Total Branches = COUNT(library_locations[name])
-`
+```
 
 ---
 
