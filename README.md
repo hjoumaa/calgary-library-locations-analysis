@@ -22,13 +22,11 @@ additional insights not present in the raw dataset.
 - What is the total number of active library branches in Calgary?
 
 ---
-
 ## Key Findings
 
-- The NW quadrant has the highest concentration of library branches in Calgary
-- Most branches are classified as average size, with the Central and the Fish-creek branch standing out as larger
+- The NW quadrant has the highest concentration of branches (7), followed by SE (6), SW (5), and NE (4)
+- Central Library is by far the largest branch by square footage, followed by Fish Creek Library and Crowfoot Library; the remaining branches are comparatively small and similar in size
 - Calgary Public Library operates 22 total branches citywide
-
 ---
 
 ## Dashboard Preview
