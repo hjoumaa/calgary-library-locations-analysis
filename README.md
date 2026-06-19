@@ -41,7 +41,7 @@ additional insights not present in the raw dataset.
 
 | File | Description |
 |------|-------------|
-| `Library Locations.png` | Power BI dashboard — branch size, quadrant breakdown, total count |
+| `library_locations.png` | Power BI dashboard — branch size, quadrant breakdown, total count |
 | `library_locations.csv` | Source dataset exported from Calgary Open Data |
 | `queries.sql` | SQL queries used for supplementary data analysis |
 
