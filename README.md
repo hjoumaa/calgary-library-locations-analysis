@@ -25,9 +25,9 @@ additional insights not present in the raw dataset.
 
 ## Key Findings
 
-- The NW quadrant has the highest concentration of branches.
-- Most branches fall into the 'community' size category.
-- Calgary operates 22 total library branches.
+- The NW quadrant has the highest concentration of library branches in Calgary
+- Most branches are classified as average size, with the Central and the Fish-creek branch standing out as larger
+- Calgary Public Library operates 22 total branches citywide
 
 ---
 
