@@ -33,7 +33,7 @@ additional insights not present in the raw dataset.
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](Library%20Locations.png)
+![Dashboard Screenshot](library_locations.PNG)
 
 ---
 
