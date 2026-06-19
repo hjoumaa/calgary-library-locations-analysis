@@ -1,7 +1,7 @@
 # Calgary Public Library — Branch Analysis
 
 **Tools used:** Power BI · DAX · SQL  
-**Dataset:** [Calgary Public Library Locations and Hours](https://data.calgary.ca/Recreation-and-Culture/Calgary-Public-Library-Locations-and-Hours/m9y7-ui7j/)  
+**Dataset:** [Calgary Public Library Locations and Hours](https://data.calgary.ca/Recreation-and-Culture/Calgary-Public-Library-Locations-and-Hours/m9y7-ui7j/data_preview)  
 **Status:** Complete
 
 ---
